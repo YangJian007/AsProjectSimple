@@ -13,7 +13,7 @@ class BizInterceptor : HiInterceptor {
         if (chain.isRequestPeriod) {
             val boardingPass = SPUtil.getString("boarding-pass") ?: ""
             request.addHeader("boarding-pass", boardingPass)
-            request.addHeader("auth-token", "MTU5Mjg1MDg3NDcwNw==")
+            request.addHeader("auth-token", "MTU5Mjg1MDg3NDcwNw11.26==")
         } else if (response != null) {
             var outputBuilder = StringBuilder()
             val httpMethod: String =

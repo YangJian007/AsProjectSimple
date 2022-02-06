@@ -124,7 +124,8 @@ class InputItemLayout : LinearLayout {
             applyUnit(TypedValue.COMPLEX_UNIT_SP, 15f)
         )
 
-        val maxInputLength = array.getInteger(R.styleable.InputItemLayout_maxInputLength, 20)
+//        val maxInputLength = array.getInteger(R.styleable.InputItemLayout_maxInputLength, 20)
+        val maxInputLength = 20
 
         editText = EditText(context)
         editText.filters = arrayOf(InputFilter.LengthFilter(maxInputLength))//最多可输入的字符数
