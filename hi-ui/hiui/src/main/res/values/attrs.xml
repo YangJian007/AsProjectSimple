@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HiBanner">
+        <attr name="autoPlay" format="boolean" />
+        <attr name="loop" format="boolean" />
+        <attr name="intervalTime" format="integer|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="HiSliderView">
+        <attr name="menuItemWidth" format="dimension"></attr>
+        <attr name="menuItemHeight" format="dimension"></attr>
+        <attr name="menuItemTextSize" format="dimension"></attr>
+        <attr name="menuItemSelectTextSize" format="dimension"></attr>
+        <attr name="menuItemIndicator" format="reference"></attr>
+        <attr name="menuItemTextColor" format="reference"></attr>
+        <attr name="menuItemBackgroundColor" format="color"></attr>
+        <attr name="menuItemSelectBackgroundColor" format="color"></attr>
+    </declare-styleable>
+</resources>
