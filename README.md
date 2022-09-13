@@ -1,1 +1,3 @@
-# AsProjectSimple自学用2222
+# AsProjectSimple
+
+未使用jetpack 、协程
